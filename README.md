@@ -15,20 +15,25 @@ Clone the repository
 git clone https://github.com/JaydevDhanji/gym-duckietown.git
 cd gym-duckietown
 
-Build the Docker Image 
+Build the Docker Image
+```bash
 docker build -t duckietown-env .
 
-Initiate xhost on your host laptop by running this line of code 
+Initiate xhost on your host laptop by running this line of code
+```bash
 xhost +local:root
 
-Run the Docker image 
+Run the Docker image
+```bash
 docker run -it --rm duckietown-env
 
 **USAGE:** 
 For the Duck Detection with Keyboard Control, run this line of code
+```bash
 ./trial1.py --env-name Duckietown-loop_obstacles-v0
 
-For the Lane Following with PID Control, run this line of code 
+For the Lane Following with PID Control, run this line of code
+```bash
 ./lane4.py 
 
 When you run the lane following, you will get 2 options, the first one is to test without visualizing it and the second one is running it on the simulator. 
