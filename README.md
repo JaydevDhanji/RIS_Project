@@ -14,6 +14,7 @@ Clone the repository
 ```bash
 git clone https://github.com/JaydevDhanji/gym-duckietown.git
 cd gym-duckietown
+```bash
 
 Build the Docker Image
 `docker build -t duckietown-env .
