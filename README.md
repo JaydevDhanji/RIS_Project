@@ -17,8 +17,9 @@ cd gym-duckietown
 ```
 
 Build the Docker Image
-`docker build -t duckietown-env .
-
+`
+docker build -t duckietown-env .
+`
 Initiate xhost on your host laptop by running this line of code
 `xhost +local:root
 
