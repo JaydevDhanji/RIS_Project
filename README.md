@@ -11,8 +11,9 @@ This repository contains a Duckietown project using Docker containers and images
 
 **INSTALLATION:**
 Clone the repository 
-'''git clone https://github.com/your-username/gym-duckietown.git
-cd gym-duckietown'''
+```bash
+git clone https://github.com/JaydevDhanji/gym-duckietown.git
+cd gym-duckietown
 
 Build the Docker Image 
 docker build -t duckietown-env .
