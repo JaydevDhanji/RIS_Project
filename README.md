@@ -16,12 +16,10 @@ git clone https://github.com/JaydevDhanji/gym-duckietown.git
 cd gym-duckietown
 
 Build the Docker Image
-```bash
-docker build -t duckietown-env .
+`docker build -t duckietown-env .
 
 Initiate xhost on your host laptop by running this line of code
-```bash
-xhost +local:root
+`xhost +local:root
 
 Run the Docker image
 ```bash
